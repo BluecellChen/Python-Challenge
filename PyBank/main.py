@@ -61,16 +61,16 @@ with open(output,"w") as PyBank_analysis:
         print(readfile.read())
 
 
-# In[41]:
+# In[42]:
 
 
 print(f"Financial Analysis")
 print(f"----------------------------")
 print(f"Total Months: {len(month)}")
 print(f"Total: {sum(profit)}")
-print(f"Average Change: {round(sum(change_profit)/len(change_profit),2)}\n")
-print(f"Greatest Increase in Profits: {month[month_increase]} (${(str(increase))})\n")
-print(f"Greatest Decrease in Profits: {month[month_decrease]} (${(str(decrease))})\n")
+print(f"Average Change: {round(sum(change_profit)/len(change_profit),2)}")
+print(f"Greatest Increase in Profits: {month[month_increase]} (${(str(increase))})")
+print(f"Greatest Decrease in Profits: {month[month_decrease]} (${(str(decrease))})")
 
 
 # In[ ]:
